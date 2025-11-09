@@ -40,6 +40,7 @@ q = MM1Queue(lamda=20.0, mu=25.0)
 print(q.lq)      # average # in queue
 print(q.w)       # total system wait time
 print(q.utilization)   # traffic intensity
+```
 
 Each object automatically recalculates metrics when λ or μ is modified.
 Validation / Feasibility
